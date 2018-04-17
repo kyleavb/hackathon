@@ -15,11 +15,11 @@ import DonateOptions from './DonateOptions'
 import DonateBarcode from './DonateBarcode'
 import DonateConfirm from './DonateConfirm'
 import Reciever from './Reciever'
-<<<<<<< HEAD
 import FooterDonate from './FooterDonate'
-=======
 import RecieverProfile from './RecieverProfile'
->>>>>>> 7c80015d460d4468c126050d03d8c396b27e9784
+import VolunteerWork from './VolunteerWork'
+import VolunteerNext from './VolunteerNext'
+
 
 
 
@@ -39,11 +39,9 @@ class App extends Component {
           <Route path='/DonateBarcode' render={() => <DonateBarcode />} />
           <Route path='/DonateConfirm' render={() => <DonateConfirm />} />
           <Route path='/reciever' render={() => <Reciever />} />
-<<<<<<< HEAD
-          <FooterDonate />
-=======
           <Route path='/recieverprofile' render={() => <RecieverProfile />} />
->>>>>>> 7c80015d460d4468c126050d03d8c396b27e9784
+          <Route path='/volunteerwork' render={() => <VolunteerWork />} />
+          <Route path='/volunteernext' render={() => <VolunteerNext />} />
         </div>
       </Router>
     );

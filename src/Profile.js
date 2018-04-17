@@ -13,7 +13,7 @@ class Profile extends Component {
           <Row className="row-div-header">
             <HeaderDonate />
           </Row>
-      
+          <FooterDonate />
         </div >
       )
     }
