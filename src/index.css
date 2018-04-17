@@ -36,3 +36,15 @@ h2 {
 .footer-receive {
   background-color: #2ACEFF;
 }
+
+.experiance-btn{
+  width: 300px;
+}
+.signupform{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.switch{
+  display: inline;
+}
+
