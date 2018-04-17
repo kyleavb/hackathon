@@ -5,7 +5,9 @@ class Volunteer extends Component{
         return(
           <div className="row">
             <div className="col s12">
-                <h1>Volunteer area</h1>
+                <h1>Welcome Volunteer</h1>
+                <hr />
+                <h4></h4>
             </div>
           </div>  
         )

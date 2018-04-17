@@ -17,7 +17,7 @@ class Landing extends Component{
                     <Link to='/login' className='btn experiance-btn'> Donator Experiance</Link>
                     <br />
                     <br />
-                    <Link to='/' className='btn experiance-btn'>Volunteer Experiance</Link>
+                    <Link to='/volunteer' className='btn experiance-btn'>Volunteer Experiance</Link>
                     <br />
                     <br />
                     <Link to='/reciever' className='btn experiance-btn'>Reciever Experiance</Link>
