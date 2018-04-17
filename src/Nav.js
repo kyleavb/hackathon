@@ -1,16 +1,15 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom';
-import { Navbar } from 'react-materialize'
 
 class Nav extends Component{
 
     render(){
         return(
             <div>
-				        <nav>
-                    <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">HackSite</a>
-                    <ul id="nav-mobile" class="Left hide-on-med-and-down">
+                <nav>
+                    <div className="nav-wrapper">
+                    <a className="brand-logo">HackSite</a>
+                    <ul id="nav-mobile" className="Left hide-on-med-and-down">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/login'>Login</Link></li>
                         <li><Link to='/profile'>Profile</Link></li>
@@ -21,7 +20,7 @@ class Nav extends Component{
                     </div>
                 </nav>
 
-                <ul class="sidenav" id="mobile-demo">
+                <ul className="sidenav" id="mobile-demo">
                   <li><a href="sass.html">Sass</a></li>
                   <li><a href="badges.html">Components</a></li>
                   <li><a href="collapsible.html">Javascript</a></li>

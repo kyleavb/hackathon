@@ -11,6 +11,7 @@ import Profile from './Profile'
 import Donate from './Donate'
 import Signup from './Signup'
 import Volunteer from './Volunteer'
+import Reciever from './Reciever'
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path='/donate' render={() => <Donate />} />
           <Route path='/signup' render={() => <Signup />} />
           <Route path='/volunteer' render={() => <Volunteer />} />
+          <Route path='/reciever' render={() => <Reciever />} />
         </div>
       </Router>
     );
