@@ -1,4 +1,5 @@
-import React,{Component} from 'react'
+import React,{Component} from 'react';
+import { Col, Row } from 'react-materialize';
 
 class RecieverProfile extends Component{
     render(){
@@ -7,49 +8,56 @@ class RecieverProfile extends Component{
                 <h1 className='center'>Food Bank</h1>
                 <hr />
                 <div>
-                <form>
-                    <div className="switch">
-                        Canned Fruit
-                        <label>
-                        Low Need
-                        <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
-                        <span className="lever"></span>
-                        High Need
-                        </label>
-                    </div>
-                    < br/>
-                    <div className="switch">
-                        Canned Veggies
-                        <label>
-                        Low Need
-                        <input type="checkbox" value='fruit' onChange={this.changeNeed} />
-                        <span className="lever"></span>
-                        High Need
-                        </label>
-                    </div>
-                    < br/>
-                    <div className="switch">
-                        Noodles
-                        <label>
-                        Low Need
-                        <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
-                        <span className="lever"></span>
-                        High Need
-                        </label>
-                    </div>
-                    < br/>
-                    <div className="switch">
-                        Rice
-                        <label>
-                        Low Need
-                        <input type="checkbox" value='fruit' onChange={this.changeNeed} />
-                        <span className="lever"></span>
-                        High Need
-                        </label>
-                    </div>
-                </form>
+                <Row>
+                  <Col s={4} offset="s3" className="col-foodbank">
+                  <form className="switch-right">
+                      <div className="switch switch-right">
+                          Canned Fruit
+                          <label>
+                          Low Need
+                          <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Canned Veggies
+                          <label>
+                          Low Need
+                          <input type="checkbox" value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Noodles
+                          <label>
+                          Low Need
+                          <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Rice
+                          <label>
+                          Low Need
+                          <input type="checkbox" value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                  </form>
+                  </Col>
+                  </Row>
+                <hr/>
                 </div>
 
+                <Row>
+                <Col s={8} offset="s2">
                 <div className='organization-info'>
                     <h2>Contact Email: main@foodbank.com</h2>
                     <h2>Contact Phone: (555)555-5555</h2>
@@ -97,6 +105,8 @@ class RecieverProfile extends Component{
                         </tbody>
                     </table>
                 </div>
+                </Col>
+                </Row>
                 <br />
                 <a className='btn'>Edit Info</a>
                 <br />

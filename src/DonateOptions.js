@@ -21,15 +21,15 @@ class DonateOptions extends Component{
             <h2>How would you like to create your list?</h2>
           </Col>
           <Col s={8} offset='s2'>
-            <Link to='/DonateBarcode'><img className="logo-icon" src="./barcode.png" alt="barcode" /></Link>
+            <img className="logo-icon" src="./barcode.png" alt="barcode" />
           </Col>
           <Col s={8} offset='s2'>
-            <img className="logo-icon" src="./keyboard.png" alt="barcode" />
+            <Link to='/DonateBarcode'><img className="logo-icon" src="./keyboard.png" alt="barcode" /></Link>
           </Col>
         </Row>
 
 
-        
+
       </div>
     )
   }
