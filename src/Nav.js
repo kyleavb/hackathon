@@ -9,7 +9,7 @@ class Nav extends Component{
             <div>
                 <nav>
                     <div className="nav-wrapper">
-                    <a className="brand-logo">HackSite</a>
+                    <a className="brand-logo">Yours 2 Share</a>
                     <ul id="nav-mobile" className="Left hide-on-med-and-down">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/login'>Login</Link></li>
