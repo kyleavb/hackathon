@@ -47,4 +47,6 @@ h2 {
 .switch{
   display: inline;
 }
-
+.organization-info{
+  text-align: left;
+}
