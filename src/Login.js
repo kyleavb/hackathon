@@ -25,27 +25,27 @@ class Login extends Component{
       // if user is volunteer redirect & fill with user component?
       // if user is foodbank redirect to profile - fill with their info
       if(this.state.type === 'donator'){
-        var formField = 
+        var formField =
         <div className="col s12">
             <form id='signupform'>
               <input placeholder='Name:' type='text'  /> <br />
               <input placeholder='Email:' type='text'  /> <br />
               <input placeholder='Password:' type='password'  /> <br />
-              <Link to='/profile' className='btn'>Sign Up</Link>
+              <Link to='/profile' className='btn btn-donator'>Sign Up</Link>
             </form>
         </div>
       }else if(this.state.type === 'volunteer'){
-        var formField = 
+        var formField =
         <div className="col s12">
           <form id='signupform'>
                 <input placeholder='Name:' type='text' /> <br />
                 <input placeholder='Email:' type='text'  /> <br />
                 <input placeholder='Password:' type='password'  /> <br />
-                <Link to='/volunteer' className='btn'>Sign Up</Link>
+                <Link to='/volunteer' className='btn btn-volunteer'>Sign Up</Link>
           </form>
         </div>
       }else if(this.state.type === 'reciever'){
-        var formField = 
+        var formField =
         <div className="col s12">
           <form id='signupform'>
                 <input placeholder='Orginization Name:' type='text' /> <br />
@@ -55,7 +55,7 @@ class Login extends Component{
                 <input placeholder='Delivery Hours:' type='text'  /> <br />
                 <input placeholder='User Name:' type='text'  /> <br />
                 <input placeholder='Password:' type='password'  /> <br />
-                <Link to='/reciever' className='btn'>Enroll</Link>
+                <Link to='/reciever' className='btn btn-receiver'>Enroll</Link>
           </form>
         </div>
       }
@@ -68,7 +68,7 @@ class Login extends Component{
               <input name="type" type="radio" value='donator' onChange={this.radioChange} />
               <span>Donator</span>
             </label>
-            
+
             <label>
               <input name="type" type="radio" value='volunteer' onChange={this.radioChange} />
               <span>Volunteer</span>

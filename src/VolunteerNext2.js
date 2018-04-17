@@ -2,7 +2,8 @@ import React,{Component} from 'react'
 import {Row, Col, Icon, Button} from 'react-materialize';
 import { Link } from 'react-router-dom';
 
-class VolunteerNext extends Component{
+
+class VolunteerNext2 extends Component{
 
     render(){
         return(
@@ -11,11 +12,10 @@ class VolunteerNext extends Component{
 
               <div className='main-map'>
               <div className='col s3 offset-s9'>
-              <Link to='/VolunteerNext2'><Button floating large className='red'waves='light' icon='arrow_forward'>
-              </Button></Link>
+
               </div>
-                  <h2>Route 2</h2>
-                  <img className='map-img' src='./hero1.png' alt='Map 1'/>
+                  <h2>Route 1</h2>
+                  <img className='map-img' src='./hero2.png' alt='Map 1'/>
 
                   <table>
                       <thead>
@@ -30,18 +30,18 @@ class VolunteerNext extends Component{
                       <tbody>
                       <tr>
                           <td></td>
-                          <td>Noodles</td>
-                          <td>336 26th Ave</td>
+                          <td>Avacodo</td>
+                          <td>730 14th Ave</td>
                       </tr>
                       <tr>
                           <td></td>
-                          <td>Gushers</td>
-                          <td>336 26th Ave</td>
+                          <td>Canned Tomatoes</td>
+                          <td>730 14th Ave</td>
                       </tr>
                       <tr>
                           <td></td>
-                          <td>Strawberry Juice</td>
-                          <td>336 26th Ave</td>
+                          <td>Tinned Achovies</td>
+                          <td>730 14th Ave</td>
                       </tr>
                       </tbody>
                   </table>
@@ -53,4 +53,4 @@ class VolunteerNext extends Component{
         )
     }
 }
-export default VolunteerNext
+export default VolunteerNext2

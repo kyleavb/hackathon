@@ -19,6 +19,7 @@ import FooterDonate from './FooterDonate'
 import RecieverProfile from './RecieverProfile'
 import VolunteerWork from './VolunteerWork'
 import VolunteerNext from './VolunteerNext'
+import VolunteerNext2 from './VolunteerNext2'
 
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
           <Route path='/recieverprofile' render={() => <RecieverProfile />} />
           <Route path='/volunteerwork' render={() => <VolunteerWork />} />
           <Route path='/volunteernext' render={() => <VolunteerNext />} />
+          <Route path='/volunteernext2' render={() => <VolunteerNext2 />} />
         </div>
       </Router>
     );
