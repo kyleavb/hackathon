@@ -96,6 +96,11 @@ main {
   width: auto;
 }
 
+
 .button-submit a {
   color: white !important;
+
+.organization-info{
+  text-align: left;
+
 }

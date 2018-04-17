@@ -5,9 +5,6 @@ import { Navbar, Dropdown } from 'react-materialize';
 class Nav extends Component{
 
     render(){
-
-
-
         return(
             <div>
                 <nav>
@@ -30,7 +27,7 @@ class Nav extends Component{
                   <li><a href="collapsible.html">Javascript</a></li>
                   <li><a href="mobile.html">Mobile</a></li>
                 </ul>
-			      </div>
+            </div>
         )
     }
 }
