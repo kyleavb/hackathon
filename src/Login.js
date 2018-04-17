@@ -28,7 +28,7 @@ class Login extends Component{
         var formField = 
         <div className="col s12">
             <form id='signupform'>
-              <input placeholder='Name:' type='text'  onChange={this.nameChange}/> <br />
+              <input placeholder='Name:' type='text'  /> <br />
               <input placeholder='Email:' type='text'  /> <br />
               <input placeholder='Password:' type='password'  /> <br />
               <Link to='/profile' className='btn'>Sign Up</Link>
@@ -38,7 +38,7 @@ class Login extends Component{
         var formField = 
         <div className="col s12">
           <form id='signupform'>
-                <input placeholder='Name:' type='text' onChange={this.nameChange}/> <br />
+                <input placeholder='Name:' type='text' /> <br />
                 <input placeholder='Email:' type='text'  /> <br />
                 <input placeholder='Password:' type='password'  /> <br />
                 <Link to='/volunteer' className='btn'>Sign Up</Link>
@@ -48,7 +48,7 @@ class Login extends Component{
         var formField = 
         <div className="col s12">
           <form id='signupform'>
-                <input placeholder='Orginization Name:' type='text' onChange={this.nameChange}/> <br />
+                <input placeholder='Orginization Name:' type='text' /> <br />
                 <input placeholder='Contact Email:' type='text'  /> <br />
                 <input placeholder='Contact Phone:' type='text'  /> <br />
                 <input placeholder='Address:' type='text'  /> <br />

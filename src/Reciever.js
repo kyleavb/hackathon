@@ -68,7 +68,7 @@ class Reciever extends Component{
                     </div>
                     <br />
                     <br />
-                    <Link className='btn' to='/'>Submit</Link>
+                    <Link className='btn' to='/recieverprofile'>Submit</Link>
                 </form>
             </div>
         )
