@@ -6,7 +6,7 @@ class Landing extends Component{
         return(
           <div className="row">
             <div className="col s12">
-                <h1>Company Title</h1>
+                <h1>Yours 2 Share</h1>
                     <hr />
                     <section>
                         <h4>Our serivce aims to provide our donators a easy and convienent way to donate unwanted food items to banks in need. Our system handles three types of users: donators, volunteers, and recievers.  Our demo will provide a example how our system will work to help distrubute food to those in need.</h4>
