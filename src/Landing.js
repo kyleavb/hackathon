@@ -1,14 +1,28 @@
 import React, {Component} from 'react'
-
+import { Link } from 'react-router-dom';
 
 class Landing extends Component{
     render(){
         return(
           <div className="row">
             <div className="col s12">
-				        <h1>Landing Page</h1>
+                <h1>Company Title</h1>
+                    <hr />
+                    <section>
+                        <h4>Our serivce aims to provide our donators a easy and convienent way to donate unwanted food items to banks in need. Our system handles three types of users: donators, volunteers, and recievers.  Our demo will provide a example how our system will work to help distrubute food to those in need.</h4>
+                        <br />
+                    </section>
+                    <h5>Please Click on a User experiance below top get started</h5>
+                    <br />
+                    <Link to='/login' className='btn experiance-btn'> Donator Experiance</Link>
+                    <br />
+                    <br />
+                    <Link to='/' className='btn experiance-btn'>Volunteer Experiance</Link>
+                    <br />
+                    <br />
+                    <Link to='/reciever' className='btn experiance-btn'>Reciever Experiance</Link>
+                </div>
             </div>
-			    </div>
         )
     }
 }
