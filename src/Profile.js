@@ -10,9 +10,11 @@ class Profile extends Component {
     render(){
       return(
         <div>
-        <HeaderDonate />
-        <FooterDonate />
-        </div>
+          <Row  className="row-div-header">
+            <HeaderDonate />
+          </Row>
+          <FooterDonate />
+        </div >
       )
     }
   }

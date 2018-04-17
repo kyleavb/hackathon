@@ -47,6 +47,25 @@ h2 {
 .switch{
   display: inline;
 }
+
+.icon-delete {
+  color: red;
+}
+
+.button-row {
+  vertical-align: text-top !important;
+  vertical-align: top !important;
+}
+
+.row-div {
+  height: 400px;
+  width: auto;
+}
+
+.row-div-header {
+  height: 470px;
+  width: auto;
+}
 .organization-info{
   text-align: left;
 }
