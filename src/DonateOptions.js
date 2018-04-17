@@ -16,7 +16,7 @@ class DonateOptions extends Component{
           </Col>
         </Row>
 
-        <Row>
+        <Row className="row-div">
           <Col s={8} offset='s2'>
             <h2>How would you like to create your list?</h2>
           </Col>

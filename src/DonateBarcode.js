@@ -44,33 +44,34 @@ class DonateBarcode extends Component {
           </Col>
           </Row>
 
-          <Row>
-          <Col s={8} offset='s2'>
-            <Link to='/DonateBarcode'><img className="logo-icon" src="./barcode.png" alt="barcode" /></Link>
-          </Col>
+          <Row  className="row-div">
+            <Row>
+              <Col s={8} offset='s2'>
+                <Link to='/DonateBarcode'><img className="logo-icon" src="./barcode.png" alt="barcode" /></Link>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} offset='s1' className="left-align">
+                <ul>
+                {allBody}
+                </ul>
+              </Col>
+            </Row>
+
+            <Row className="valign-wrapper">
+              <Col s={6} className="button-col">
+                <Link to='/DonateConfirm'><Button className="button-submit" large waves='light'>Submit</Button></Link>
+              </Col>
+
+              <Col s={6}  className="button-col">
+                <Button floating large className='red'waves='light' icon='add'
+                onClick={ (event) => this.changeBody(event) }></Button>
+                <p>Add Item</p>
+              </Col>
+            </Row>
+
           </Row>
-
-          <Row>
-          <Col s={10} offset='s1' className="left-align">
-            <ul>
-            {allBody}
-            </ul>
-          </Col>
-
-          </Row>
-
-          <Row className="valign-wrapper">
-          <Col s={6}  className="button-col">
-            <Button className="button-submit" large waves='light'><Link to='/DonateConfirm'></Link>Submit</Button>
-          </Col>
-
-          <Col s={6}  className="button-col">
-            <Button floating large className='red'waves='light' icon='add'
-            onClick={ (event) => this.changeBody(event) }></Button>
-            <p>Add Item</p>
-          </Col>
-          </Row>
-
         <FooterDonate />
       </div>
     )
