@@ -14,13 +14,13 @@ class Landing extends Component{
                     </section>
                     <h5>Please Click on a User experiance below top get started</h5>
                     <br />
-                    <Link to='/login' className='btn experiance-btn'> Donator Experiance</Link>
+                    <Link to='/login' className='btn experiance-btn btn-donator'> Donator Experiance</Link>
                     <br />
                     <br />
-                    <Link to='/volunteer' className='btn experiance-btn'>Volunteer Experiance</Link>
+                    <Link to='/volunteer' className='btn experiance-btn btn-volunteer'>Volunteer Experiance</Link>
                     <br />
                     <br />
-                    <Link to='/reciever' className='btn experiance-btn'>Reciever Experiance</Link>
+                    <Link to='/reciever' className='btn experiance-btn btn-receiver'>Reciever Experiance</Link>
                 </div>
             </div>
         )

@@ -100,7 +100,18 @@ main {
 .button-submit a {
   color: white !important;
 
-.organization-info{
+.organization-info {
   text-align: left;
+}
+
+.btn-receiver {
+
+}
+
+.btn-volunteer{
+
+}
+
+.btn-donator {
 
 }
