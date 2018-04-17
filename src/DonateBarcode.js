@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {Row, Col, Icon, Button} from 'react-materialize';
 import FooterDonate from './FooterDonate';
 import Profile from './Profile';
+import DonateConfirm from './DonateConfirm';
 
 
 
@@ -30,7 +31,7 @@ class DonateBarcode extends Component {
   render() {
     console.log(this.state.body)
     let allBody = this.state.body.map(function(body, index) {
-      return <li key={index}>{body}<hr /><Icon small>do_not_disturb_on</Icon>Delete</li>
+      return <li key={index}>{body}<Icon small className="icon-delete">do_not_disturb_on</Icon><hr /></li>
     })
 
 
@@ -50,7 +51,7 @@ class DonateBarcode extends Component {
           </Row>
 
           <Row>
-          <Col s={10} offset='s1'className="left-align">
+          <Col s={10} offset='s1' className="left-align">
             <ul>
             {allBody}
             </ul>
@@ -58,8 +59,12 @@ class DonateBarcode extends Component {
 
           </Row>
 
-          <Row>
-          <Col s={2} offset="s8">
+          <Row className="valign-wrapper">
+          <Col s={6}  className="button-col">
+            <Button className="button-submit" large waves='light'><Link to='/DonateConfirm'></Link>Submit</Button>
+          </Col>
+
+          <Col s={6}  className="button-col">
             <Button floating large className='red'waves='light' icon='add'
             onClick={ (event) => this.changeBody(event) }></Button>
             <p>Add Item</p>

@@ -48,3 +48,12 @@ h2 {
   display: inline;
 }
 
+.icon-delete {
+  color: red;
+}
+
+.button-row {
+  vertical-align: text-top !important;
+  vertical-align: top !important;
+
+}
