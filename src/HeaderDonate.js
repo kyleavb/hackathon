@@ -14,7 +14,8 @@ class HeaderDonate extends Component{
 
         <Col s={12}>
           <h1>Hello Jim!</h1>
-          <button><Link to='/DonateOptions'>Donate</Link></button>
+
+          <Button className="button-submit" large waves='light'><Link to='/DonateOptions'>Donate</Link></Button>
         </Col>
 
 

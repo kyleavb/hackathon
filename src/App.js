@@ -15,6 +15,7 @@ import DonateOptions from './DonateOptions'
 import DonateBarcode from './DonateBarcode'
 import DonateConfirm from './DonateConfirm'
 import Reciever from './Reciever'
+import FooterDonate from './FooterDonate'
 
 
 
@@ -34,6 +35,7 @@ class App extends Component {
           <Route path='/DonateBarcode' render={() => <DonateBarcode />} />
           <Route path='/DonateConfirm' render={() => <DonateConfirm />} />
           <Route path='/reciever' render={() => <Reciever />} />
+          <FooterDonate />
         </div>
       </Router>
     );

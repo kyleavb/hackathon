@@ -72,7 +72,7 @@ class DonateBarcode extends Component {
             </Row>
 
           </Row>
-        <FooterDonate />
+        
       </div>
     )
   }

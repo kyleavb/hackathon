@@ -1,15 +1,44 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 31.98px;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 22.62px;
+
+}
+
+p {
+  font-size: 18px;
+}
+
+nav {
+  background-color: #92FF46 !important;
+	/* font-family: 'Work Sans', sans-serif !important; */
+	/* width: 100%;
+  height: 60px;
+  line-height: 60px;
+	color: black; */
+}
+main {
+  flex: 1 0 auto;
+}
+
+.footer-sticky {
+  position: sticky;
+  bottom: 0;
 }
 
 .icon {
-  color: #CCCBC9;
+  color: #7F7F7D;
 }
 
 .logo {
@@ -65,4 +94,8 @@ h2 {
 .row-div-header {
   height: 470px;
   width: auto;
+}
+
+.button-submit a {
+  color: white !important;
 }
