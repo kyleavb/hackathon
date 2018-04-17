@@ -17,8 +17,8 @@ import DonateConfirm from './DonateConfirm'
 import Reciever from './Reciever'
 import FooterDonate from './FooterDonate'
 import RecieverProfile from './RecieverProfile'
-
-
+import VolunteerWork from './VolunteerWork'
+import VolunteerNext from './VolunteerNext'
 
 
 class App extends Component {
@@ -38,7 +38,8 @@ class App extends Component {
           <Route path='/DonateConfirm' render={() => <DonateConfirm />} />
           <Route path='/reciever' render={() => <Reciever />} />
           <Route path='/recieverprofile' render={() => <RecieverProfile />} />
-          <FooterDonate />
+          <Route path='/volunteerwork' render={() => <VolunteerWork />} />
+          <Route path='/volunteernext' render={() => <VolunteerNext />} />
         </div>
       </Router>
     );

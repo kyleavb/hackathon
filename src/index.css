@@ -97,6 +97,11 @@ main {
   width: auto;
 }
 
+.map-img{
+  object-fit: contain;
+  width: 100vw;
+  height: 50vh;
+}
 
 .button-submit a {
   color: white !important;
