@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import { Link } from 'react-router-dom';
+import {Row, Col, Icon, Button} from 'react-materialize';
 
 class Reciever extends Component{
     constructor(props){
@@ -26,9 +27,12 @@ class Reciever extends Component{
             <div>
                 <h3>Please Finish setting up your account</h3>
                 <h5>Categories</h5>
-                <form>
+                <Row>
+                  <Col s={4} offset="s3" className="col-foodbank">
+                  <form className="switch-right">
+                  <div className="switch switch-right">
                     <div className="switch">
-                        Canned Fruit  
+                        Canned Fruit
                         <label>
                         Low Need
                         <input type="checkbox" value='fruit' onChange={this.changeNeed} />
@@ -38,7 +42,7 @@ class Reciever extends Component{
                     </div>
                     < br/>
                     <div className="switch">
-                        Canned Veggies  
+                        Canned Veggies
                         <label>
                         Low Need
                         <input type="checkbox" value='fruit' onChange={this.changeNeed} />
@@ -48,7 +52,7 @@ class Reciever extends Component{
                     </div>
                     < br/>
                     <div className="switch">
-                        Noodles 
+                        Noodles
                         <label>
                         Low Need
                         <input type="checkbox" value='fruit' onChange={this.changeNeed} />
@@ -69,7 +73,10 @@ class Reciever extends Component{
                     <br />
                     <br />
                     <Link className='btn' to='/recieverprofile'>Submit</Link>
+                  </div>
                 </form>
+                </Col>
+                </Row>
             </div>
         )
     }
