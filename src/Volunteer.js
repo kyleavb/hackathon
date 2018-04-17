@@ -27,7 +27,7 @@ class Volunteer extends Component{
             <td>2.2</td>
             <td>336 27th Ave</td>
             <td>3</td>
-            <td><Link to='/volunteerwork' className='btn' >Start</Link></td>
+            <td><Link to='/volunteerNext' className='btn' >Start</Link></td>
         </tr>
         }
         return(

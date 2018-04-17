@@ -54,7 +54,7 @@ class VolunteerWork extends Component{
   
               <Row className="valign-wrapper">
                 <Col s={6} className="button-col">
-                  <Link to='/volunteernext'><Button className="button-submit" large waves='light'>Submit</Button></Link>
+                  <Link to='/volunteernext2'><Button className="button-submit" large waves='light'>Submit</Button></Link>
                 </Col>
   
                 <Col s={6}  className="button-col">

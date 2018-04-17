@@ -20,6 +20,7 @@ import RecieverProfile from './RecieverProfile'
 import VolunteerWork from './VolunteerWork'
 import VolunteerNext from './VolunteerNext'
 import VolunteerNext2 from './VolunteerNext2'
+import VolunteerNext3 from './VoulnteerNext3'
 
 
 class App extends Component {
@@ -42,6 +43,7 @@ class App extends Component {
           <Route path='/volunteerwork' render={() => <VolunteerWork />} />
           <Route path='/volunteernext' render={() => <VolunteerNext />} />
           <Route path='/volunteernext2' render={() => <VolunteerNext2 />} />
+          <Route path='/volunteernext3' render={() => <VolunteerNext3 />} />
         </div>
       </Router>
     );
