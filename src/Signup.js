@@ -6,7 +6,8 @@ class Signup extends Component{
           <div className="row">
             <div className="col s12">
                 <h1>Signup Page</h1>
-            </div>    
+
+            </div>
           </div>
         )
     }

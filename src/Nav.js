@@ -12,10 +12,8 @@ class Nav extends Component{
                     <a className="brand-logo">HackSite</a>
                     <ul id="nav-mobile" className="Left hide-on-med-and-down">
                         <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/login'>Login</Link></li>
+                        <li><Link to='/login'>Login / Signup</Link></li>
                         <li><Link to='/profile'>Profile</Link></li>
-                        <li><Link to='/donate'>Donate</Link></li>
-                        <li><Link to='/signup'>Signup</Link></li>
                         <li><Link to='/volunteer'>Volunteer</Link></li>
                     </ul>
                     </div>

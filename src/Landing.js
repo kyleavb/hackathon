@@ -9,18 +9,22 @@ class Landing extends Component{
                 <h1>Yours 2 Share</h1>
                     <hr />
                     <section>
-                        <h4>Our serivce aims to provide our donators a easy and convienent way to donate unwanted food items to banks in need. Our system handles three types of users: donators, volunteers, and recievers.  Our demo will provide a example how our system will work to help distrubute food to those in need.</h4>
+                        <h2>Our serivce aims to provide our donators a easy and
+                        convienent way to donate unwanted food items to banks in need.
+                        Our system handles three types of users: donators, volunteers, and
+                        recievers.  Our demo will provide a example how our system will
+                        work to help distrubute food to those in need.</h2>
                         <br />
                     </section>
-                    <h5>Please Click on a User experiance below top get started</h5>
+                    <h2>Please Click on a user experience below to get started</h2>
                     <br />
-                    <Link to='/login' className='btn experiance-btn btn-donator'> Donator Experiance</Link>
-                    <br />
-                    <br />
-                    <Link to='/volunteer' className='btn experiance-btn btn-volunteer'>Volunteer Experiance</Link>
+                    <Link to='/login' className='btn experiance-btn btn-donator'> Donator Experience</Link>
                     <br />
                     <br />
-                    <Link to='/reciever' className='btn experiance-btn btn-receiver'>Reciever Experiance</Link>
+                    <Link to='/volunteer' className='btn experiance-btn btn-volunteer'>Volunteer Experience</Link>
+                    <br />
+                    <br />
+                    <Link to='/reciever' className='btn experiance-btn btn-receiver'>Reciever Experience</Link>
                 </div>
             </div>
         )
