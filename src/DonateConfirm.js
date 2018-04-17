@@ -24,7 +24,7 @@ class DonateConfirm extends Component {
           </Col>
         </Row>
 
-        <FooterDonate />
+    
       </div>
     )
   }
