@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #7F7F7D;
 
 }
 
@@ -16,13 +17,4 @@
 
 .App-intro {
   font-size: large;
-}
-
-.nav {
-  /* font-family: 'Raleway', sans-serif; */
-  /* background-color: black;
-  color: white;
-  z-index: 100; */
-  /* padding: 0 0 0 10px;
-  font-weight: 800; */
 }
