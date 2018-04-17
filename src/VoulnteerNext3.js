@@ -3,7 +3,7 @@ import {Row, Col, Icon, Button} from 'react-materialize';
 import { Link } from 'react-router-dom';
 
 
-class VolunteerNext2 extends Component{
+class VolunteerNext3 extends Component{
 
     render(){
         return(
@@ -14,9 +14,9 @@ class VolunteerNext2 extends Component{
               <div className='col s3 offset-s9'>
 
               </div>
-                  <h2>Stop 1</h2>
-                  <img className='map-img' src='./hero2.png' alt='Map 1'/>
-                    <h2>Please Proceed to 730 14th Ave</h2>
+                  <h2>Stop 2</h2>
+                  <img className='map-img' src='./hero3.png' alt='Map 1'/>
+                    <h2>Please Proceed to Food Bank @ St.Mary's</h2>
                     <hr />
                     <h5>Items to be dropped off</h5>
                   <table>
@@ -49,12 +49,11 @@ class VolunteerNext2 extends Component{
                       </tbody>
                   </table>
                   </div>
-                  <Link to='/VolunteerNext3'><Button floating large className='red'waves='light' icon='arrow_forward'>
-              </Button></Link>
+                <Link className='btn' to='/'>Complete Route</Link>
             </div>
           </div>
 
         )
     }
 }
-export default VolunteerNext2
+export default VolunteerNext3
