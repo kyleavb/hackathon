@@ -93,7 +93,7 @@ class Volunteer extends Component{
                     <hr />
                 </div>
             </div>
-          </div>  
+          </div>
         )
     }
 }
