@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  flex-direction: column; */
   font-family: 'Nunito', sans-serif;
 }
 
@@ -32,8 +32,9 @@ main {
   flex: 1 0 auto;
 }
 
+
 .footer-sticky {
-  position: sticky;
+  /* position: sticky; */
   bottom: 0;
 }
 
@@ -49,7 +50,7 @@ main {
 }
 
 .logo-icon {
-  width: 150px;
+  width: 200px;
   height: auto;
   margin: 10px;
 }
@@ -106,7 +107,26 @@ main {
   color: white !important;
 }
 
-.organization-info{
+.organization-info {
   text-align: left;
+}
 
+.btn-receiver {
+  background-color: #2ACEFF !important;
+
+}
+
+.btn-volunteer{
+  background-color: #FFB636 !important;
+
+
+}
+
+.btn-donator {
+  background-color: #92FF46 !important;
+
+}
+
+.switch-right {
+  text-align: right !important;
 }

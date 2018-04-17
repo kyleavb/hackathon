@@ -21,7 +21,6 @@ class FooterDonate extends Component{
         </Row>
       </Col>
       </Row>
-
     )
   }
 

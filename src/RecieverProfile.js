@@ -1,4 +1,5 @@
-import React,{Component} from 'react'
+import React,{Component} from 'react';
+import { Col, Row } from 'react-materialize';
 
 class RecieverProfile extends Component{
     render(){
@@ -6,22 +7,66 @@ class RecieverProfile extends Component{
             <div>
                 <h1 className='center'>Food Bank</h1>
                 <hr />
+                <div>
+                <Row>
+                  <Col s={4} offset="s3" className="col-foodbank">
+                  <form className="switch-right">
+                      <div className="switch switch-right">
+                          Canned Fruit
+                          <label>
+                          Low Need
+                          <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Canned Veggies
+                          <label>
+                          Low Need
+                          <input type="checkbox" value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Noodles
+                          <label>
+                          Low Need
+                          <input type="checkbox" checked value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                      < br/>
+                      <div className="switch switch-right">
+                          Rice
+                          <label>
+                          Low Need
+                          <input type="checkbox" value='fruit' onChange={this.changeNeed} />
+                          <span className="lever"></span>
+                          High Need
+                          </label>
+                      </div>
+                  </form>
+                  </Col>
+                  </Row>
+                <hr/>
+                </div>
+
+                <Row>
+                <Col s={8} offset="s2">
                 <div className='organization-info'>
-                    <h3>Contact Email: main@foodbank.com</h3>
-                    <h3>Contact Phone: (555)555-5555</h3>
-                    <h3>Address: 123 N Main St</h3>
-                    <h3>City: Seattle</h3>
-                    <h3>State: Wa</h3>
-                    <h3>Delivery Hours: Mon-Sun 9am - 10pm</h3>
-                    <hr />
-                    <div className='demand'>
-                        <p>Canned Fruit: High</p>
-                        <p>Canned Veggies: High</p>
-                        <p>Canned Noodles: High</p>
-                        <p>Canned Rice: High</p>                        
-                    </div>
+                    <h2>Contact Email: main@foodbank.com</h2>
+                    <h2>Contact Phone: (555)555-5555</h2>
+                    <h2>Address: 123 N Main St</h2>
+                    <h2>City: Seattle</h2>
+                    <h2>State: Wa</h2>
+                    <h2>Delivery Hours: Mon-Sun 9am - 10pm</h2>
                     <hr/>
-                    <h3 className='center'>List of Approved Contacts</h3>
+                    <h2 className='center'>List of Approved Contacts</h2>
                     <table>
                         <thead>
                         <tr>
@@ -60,6 +105,8 @@ class RecieverProfile extends Component{
                         </tbody>
                     </table>
                 </div>
+                </Col>
+                </Row>
                 <br />
                 <a className='btn'>Edit Info</a>
                 <br />

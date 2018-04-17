@@ -21,8 +21,6 @@ import VolunteerWork from './VolunteerWork'
 import VolunteerNext from './VolunteerNext'
 
 
-
-
 class App extends Component {
   render() {
     return (

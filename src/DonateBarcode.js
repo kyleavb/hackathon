@@ -19,7 +19,7 @@ class DonateBarcode extends Component {
   }
 
   changeBody(event) {
-    var value = prompt()
+    var value = prompt('Your item:')
     var temp = this.state.body
     temp.push(value)
     this.setState({
@@ -31,7 +31,8 @@ class DonateBarcode extends Component {
   render() {
     console.log(this.state.body)
     let allBody = this.state.body.map(function(body, index) {
-      return <li key={index}>{body}<Icon small className="icon-delete">do_not_disturb_on</Icon><hr /></li>
+      return <li key={index}><Icon small className="icon-delete">&nbsp;&nbsp;do_not_disturb_on</Icon>
+      {body}<hr /></li>
     })
 
 
@@ -47,7 +48,7 @@ class DonateBarcode extends Component {
           <Row  className="row-div">
             <Row>
               <Col s={8} offset='s2'>
-                <Link to='/DonateBarcode'><img className="logo-icon" src="./barcode.png" alt="barcode" /></Link>
+                <Link to='/DonateBarcode'><img className="logo-icon" src="./keyboard.png" alt="barcode" /></Link>
               </Col>
             </Row>
 
@@ -72,7 +73,7 @@ class DonateBarcode extends Component {
             </Row>
 
           </Row>
-        
+
       </div>
     )
   }
