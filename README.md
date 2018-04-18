@@ -16,21 +16,21 @@ Developed in less than 8 working hours, through a collaborative effort between t
 ## Final App Screenshots
 
 #### Main
-![alt text](/public/Screen Shot 2018-04-18 at 11.25.14 AM.png "Main")
+![alt text](/public/01.png "Main")
 
 #### Donator
-![alt text](/public/Screen Shot 2018-04-18 at 11.27.24 AM.png "Donator")
-![alt text](/public/Screen Shot 2018-04-18 at 11.27.28 AM.png "Donator")
-![alt text](/public/Screen Shot 2018-04-18 at 11.28.25 AM.png "Donator")
-![alt text](/public/Screen Shot 2018-04-18 at 11.28.29 AM.png "Donator")
+![alt text](/public/06.png "Donator")
+![alt text](/public/07.png "Donator")
+![alt text](/public/08.png "Donator")
+![alt text](/public/09.png "Donator")
 
 #### Volunteer / Driver
-![alt text](/public/Screen Shot 2018-04-18 at 11.26.08 AM.png "Volunteer")
-![alt text](/public/Screen Shot 2018-04-18 at 11.26.19 AM.png "Volunteer")
+![alt text](/public/04.png "Volunteer")
+![alt text](/public/05.png "Volunteer")
 
 #### Received / Food Banks
-![alt text](/public/Screen Shot 2018-04-18 at 11.25.40 AM.png "Receiver")
-![alt text](/public/Screen Shot 2018-04-18 at 11.25.45 AM.png "Receiver")
+![alt text](/public/02.png "Receiver")
+![alt text](/public/03.png "Receiver")
 
 ## Technology / Library Used
 - React
