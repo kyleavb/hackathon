@@ -19,18 +19,18 @@ Developed in less than 8 working hours, through a collaborative effort between t
 ![alt text](/public/01.png "Main")
 
 #### Donator
-![alt text](/public/06.png "Donator")
-![alt text](/public/07.png "Donator")
-![alt text](/public/08.png "Donator")
-![alt text](/public/09.png "Donator")
+![alt text](/public/06.png "Donator")<br/>
+![alt text](/public/07.png "Donator")<br/>
+![alt text](/public/08.png "Donator")<br/>
+![alt text](/public/09.png "Donator")<br/>
 
 #### Volunteer / Driver
-![alt text](/public/04.png "Volunteer")
-![alt text](/public/05.png "Volunteer")
+![alt text](/public/04.png "Volunteer")<br/>
+![alt text](/public/05.png "Volunteer")<br/>
 
 #### Received / Food Banks
-![alt text](/public/02.png "Receiver")
-![alt text](/public/03.png "Receiver")
+![alt text](/public/02.png "Receiver")<br/>
+![alt text](/public/03.png "Receiver")<br/>
 
 ## Technology / Library Used
 - React
